@@ -35,7 +35,7 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 
 - & Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ"""
 
-    SOURCE_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Kishanyadav484</b>
+    SOURCE_TXT = """Tʜɪs Is Aɴ Private Bot Pʀᴏᴊᴇᴄᴛ Bʏ @Kishanyadav484</b>
 
 - 100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/Flix_Movie_in>sʜᴀʀᴀᴛʜ</a></b>
 
