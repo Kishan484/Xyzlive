@@ -53,7 +53,7 @@ async def start(client, message):
 
             ],[
 
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='sources')
+            InlineKeyboardButton('☠️Fᴇᴀᴛᴜʀᴇs☠️', callback_data='mods')
 
             ],[
 
@@ -107,7 +107,7 @@ async def start(client, message):
             InlineKeyboardButton('💥 ADMIN 💥', url='https://t.me/Kishanyadav484'),
             InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/newSouthmovieinhindid')
             ],[
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='sources')
+            InlineKeyboardButton('☠️Fᴇᴀᴛᴜʀᴇs☠️', callback_data='mods')
             ],[
             InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
             ],[
