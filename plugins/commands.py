@@ -111,7 +111,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
             ],[
-            InlineKeyboardButton(''🔍 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🔍 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=''),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
