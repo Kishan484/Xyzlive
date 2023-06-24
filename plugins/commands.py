@@ -49,7 +49,7 @@ async def start(client, message):
 
             InlineKeyboardButton('💥 ADMIN 💥', url='https://t.me/Kishanyadav484'),
 
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/newSouthmovieinhindid')
+            InlineKeyboardButton('🎥 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/newSouthmovieinhindid')
 
             ],[
 
@@ -61,7 +61,7 @@ async def start(client, message):
 
             ],[
 
-            InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
+            InlineKeyboardButton('🔍 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=''),
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -105,13 +105,13 @@ async def start(client, message):
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton('💥 ADMIN 💥', url='https://t.me/Kishanyadav484'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/newSouthmovieinhindid')
+            InlineKeyboardButton('🎥 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/newSouthmovieinhindid')
             ],[
             InlineKeyboardButton('☠️Fᴇᴀᴛᴜʀᴇs☠️', callback_data='mods')
             ],[
             InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
             ],[
-            InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
+            InlineKeyboardButton(''🔍 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=''),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
