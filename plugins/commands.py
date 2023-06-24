@@ -47,7 +47,7 @@ async def start(client, message):
 
             ],[
 
-            InlineKeyboardButton('💥 ADMIN 💥', url='https://t.me/Kbmove'),
+            InlineKeyboardButton('💥 ADMIN 💥', url='https://t.me/Kishanyadav484'),
 
             InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/newSouthmovieinhindid')
 
@@ -104,7 +104,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 ADMIN 💥', url='https://t.me/Kbmove'),
+            InlineKeyboardButton('💥 ADMIN 💥', url='https://t.me/Kishanyadav484'),
             InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/newSouthmovieinhindid')
             ],[
             InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='sources')
