@@ -637,10 +637,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        🎥total = await Media.count_documents()
-        😎users = await db.total_users_count()
-        🫂chats = await db.total_chat_count()
-        ☠️monsize = await db.get_db_size()
+        total = await Media.count_documents()
+        users = await db.total_users_count()
+        chats = await db.total_chat_count()
+        monsize = await db.get_db_size()
         free = 536870912 - monsize
         monsize = get_size(monsize)
         free = get_size(free)
