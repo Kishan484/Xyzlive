@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/newSouthmovieinhindid')
+                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/MOVIE_WORLD_IN_MOVIE')
             ],
             [
                 InlineKeyboardButton('ℹ️ Hᴇʟᴘ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
@@ -47,9 +47,9 @@ async def start(client, message):
 
             ],[
 
-            InlineKeyboardButton('💥 ADMIN 💥', url='https://t.me/Kishanyadav484'),
+            InlineKeyboardButton('💥 ADMIN 💥', url='https://t.me/Kishan484'),
 
-            InlineKeyboardButton('🎥 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/newSouthmovieinhindid')
+            InlineKeyboardButton('🎥 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/MOVIE_WORLD_IN_MOVIE')
 
             ],[
 
@@ -102,8 +102,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 ADMIN 💥', url='https://t.me/Kishanyadav484'),
-            InlineKeyboardButton('🎥 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/newSouthmovieinhindid')
+            InlineKeyboardButton('💥 ADMIN 💥', url='https://t.me/Kishan484'),
+            InlineKeyboardButton('🎥 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/MOVIE_WORLD_IN_MOVIE')
             ],[
             InlineKeyboardButton('📻 Fᴇᴀᴛᴜʀᴇs 📻', callback_data='mods'),
             InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝 📟', callback_data= 'about')
@@ -258,7 +258,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(' 🔎SOUTHMOVIEIN🎥', url='https://t.me/newSouthmovieinhindid') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(' 🎞️MOVIE WORLD 📹 IN MOVIE🎬', url='https://t.me/MOVIE_WORLD_IN_MOVIE') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
